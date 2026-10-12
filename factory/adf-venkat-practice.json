@@ -1,0 +1,15 @@
+{
+	"name": "adf-venkat-practice",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "18db0812-fdab-4abb-b58c-629236b9fe36",
+		"tenantId": "271e4a70-0cf3-43c8-b69e-a06ed7acb164"
+	}
+}
