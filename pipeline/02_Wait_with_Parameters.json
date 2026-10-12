@@ -1,0 +1,26 @@
+{
+	"name": "02_Wait_with_Parameters",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": {
+						"value": "@pipeline().parameters.par1",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"par1": {
+				"type": "int",
+				"defaultValue": 5
+			}
+		},
+		"annotations": []
+	}
+}
