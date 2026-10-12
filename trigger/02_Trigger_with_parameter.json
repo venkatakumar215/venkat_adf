@@ -1,0 +1,28 @@
+{
+	"name": "02_Trigger_with_parameter",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "05_Trigger_with_parameter",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"par1": 5
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2026-10-12T01:57:00",
+				"endTime": "2026-10-13T01:59:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
