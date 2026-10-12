@@ -9,7 +9,7 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 3,
-				"startTime": "2026-10-12T01:47:00",
+				"startTime": "2026-10-12T01:50:00",
 				"endTime": "2026-10-13T01:59:00",
 				"timeZone": "India Standard Time"
 			}
