@@ -1,6 +1,12 @@
 {
 	"name": "adf-venkat-practice",
 	"properties": {
+		"globalParameters": {
+			"global_par_1": {
+				"type": "int",
+				"value": 8
+			}
+		},
 		"trustModeClaimForMi": {
 			"value": "Disabled",
 			"editable": true
