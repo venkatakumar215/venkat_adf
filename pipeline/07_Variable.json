@@ -1,0 +1,26 @@
+{
+	"name": "07_Variable",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": {
+						"value": "@variables('var1')",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"var1": {
+				"type": "Integer",
+				"defaultValue": 4
+			}
+		},
+		"annotations": []
+	}
+}

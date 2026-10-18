@@ -1,0 +1,38 @@
+{
+	"name": "12_Until",
+	"properties": {
+		"activities": [
+			{
+				"name": "Until1",
+				"type": "Until",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"expression": {
+						"value": "@pipeline().parameters.parbool",
+						"type": "Expression"
+					},
+					"activities": [
+						{
+							"name": "Wait1",
+							"type": "Wait",
+							"dependsOn": [],
+							"userProperties": [],
+							"typeProperties": {
+								"waitTimeInSeconds": 5
+							}
+						}
+					],
+					"timeout": "0.0:01:00"
+				}
+			}
+		],
+		"parameters": {
+			"parbool": {
+				"type": "bool",
+				"defaultValue": true
+			}
+		},
+		"annotations": []
+	}
+}
